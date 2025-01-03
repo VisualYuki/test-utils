@@ -58,7 +58,7 @@ test('modelValue should be updated', async () => {
 })
 ```
 
-# Multiple `v-model`
+## Multiple `v-model`
 
 In some situations we can have multiple `v-model` targeting specific properties.
 

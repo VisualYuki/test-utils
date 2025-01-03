@@ -102,6 +102,7 @@ you only want to test a single composable.
 ### Testing `provide`
 
 Let's assume the following component you want to test:
+
 ```vue
 <template>
   <div>

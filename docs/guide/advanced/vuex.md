@@ -236,7 +236,7 @@ const wrapper = mount(App, {
 
 ### Testing Components that Utilize `useStore` with an Injection Key
 
-When using the store with an injection key ,the previous approach won't work. The store instance won't be returned from `useStore`. In order to access the correct store the identifier needs to be provided.
+When using the store with an injection key, the previous approach won't work. The store instance won't be returned from `useStore`. In order to access the correct store the identifier needs to be provided.
 
 It needs to be the exact key that is passed to `useStore` in the `setup` function of the component or to `useStore` within the custom helper function. Since JavaScript symbols are unique and can't be recreated, it is best to export the key from the real store.
 
